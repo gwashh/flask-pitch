@@ -14,3 +14,4 @@ class UserTest(unittest.TestCase):
 
     def test_save(self):
         self.assertTrue(self.new_user.check_password('bikinibottom'))
+        
