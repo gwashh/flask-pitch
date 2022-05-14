@@ -4,6 +4,7 @@ from wtforms.validators import Required, Email, EqualTo
 from ..models import User
 
 
+
 class SignupForm(FlaskForm):
     username = StringField('Enter your name', validators=[Required()])
     email = StringField('Enter your email address', validators=[Required(),Email()])
