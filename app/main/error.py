@@ -6,3 +6,4 @@ def not_found(error):
     '''
     '''
     return render_template('not_found.html'),404
+    g
