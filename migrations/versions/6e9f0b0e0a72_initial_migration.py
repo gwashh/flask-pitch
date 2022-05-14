@@ -2,7 +2,7 @@
 
 Revision ID: 6e9f0b0e0a72
 Revises: 
-Create Date: 2020-07-14 02:00:47.741803
+Create Date: 2022-03-14 02:00:47.741803
 
 """
 from alembic import op
@@ -28,6 +28,7 @@ def upgrade():
     sa.UniqueConstraint('username')
     )
     # ### end Alembic commands ###
+
 
 
 def downgrade():

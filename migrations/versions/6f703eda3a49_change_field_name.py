@@ -28,3 +28,4 @@ def downgrade():
     op.add_column('users', sa.Column('password', sa.VARCHAR(length=128), autoincrement=False, nullable=True))
     op.drop_column('users', 'password_encrypt')
     # ### end Alembic commands ###
+
